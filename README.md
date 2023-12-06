@@ -6,7 +6,7 @@
 
 ---
 
-*Based on OpenCore, of course.*
+*Based on OpenCore 0.9.5, of course.*
 
 **WARNING: This repository now uses macOS 13 Ventura, Update to Sonoma using softwareupdate --fetch-full-installer --full-installer-version 14.1.2**
 
