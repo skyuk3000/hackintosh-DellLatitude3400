@@ -20,7 +20,7 @@
 |**RAM**|8GB DDR4 2400MHz|
 |**IGPU**|Intel UHD 620|
 |**SSD**|Western Digital Black NVMe 256GB|
-|**ETH**|Intel I217-LM|
+|**ETH**|Realtek RTL8111|
 |**WLAN+BT**|BCM94360NG (Intel 9560NGW can also work)|
 |**Audio**|Realtek ALC236|
 |**Ports**|USB-C (PD+DP-AltMode), 3xUSB3.1, HDMI, microSD, Multi-Jack, DC|
@@ -35,8 +35,8 @@
 
 - **Everything what is not in the Not working section :D**
 - Bluetooth (4.0, LE, Handoff) [out-of-the-box, no kext needed]
-- WLAN [no kext needed] (recommended)
-- Ethernet
+- WLAN (remove Sonoma and rename the orginal AirportItlwm.kext)
+- Ethernet (RealtekRTL8111.kext)
 - HDMI, DisplayPort Alt Mode (all with sound, but no volume adjustment)
 - USB-C (I'm using it with a docking station all the time)
 - USB ports mapped, working after sleep
