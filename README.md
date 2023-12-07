@@ -6,7 +6,7 @@
 
 ---
 
-*Based on OpenCore 0.9.5, of course.*
+*Based on OpenCore 0.9.6, of course.*
 
 **WARNING: This repository now uses macOS 13 Ventura, Update to Sonoma using softwareupdate --fetch-full-installer --full-installer-version 14.1.2**
 
@@ -19,19 +19,17 @@
 |**CPU**|Intel i5-8265U CPU @ 1.60GHz (Whiskey Lake)|
 |**RAM**|8GB DDR4 2400MHz|
 |**IGPU**|Intel UHD 620|
-|**SSD**|Western Digital Black NVMe 256GB|
+|**SSD**|Samsung NVMe 256GB|
 |**ETH**|Realtek RTL8111|
 |**WLAN+BT**|BCM94360NG (Intel 9560NGW can also work)|
 |**Audio**|Realtek ALC236|
 |**Ports**|USB-C (PD+DP-AltMode), 3xUSB3.1, HDMI, microSD, Multi-Jack, DC|
+|**SMBIOS**|MacBookPro15,2|
 
 ## Not working
 
-- Dedicated brightness control keys (use Fn+S/Fn+B instead)
 - HDMI coldplug
-- VGA
 - TrackPad with gestures (visible as Magic Trackpad 2)
-- USB-C (Display)
 - *Hibernation (none of Hackintoshes can do that)*
 
 ## Working
@@ -41,6 +39,7 @@
 - WLAN (Remove Sonoma and rename the orginal AirportItlwm.kext)
 - Ethernet (RealtekRTL8111.kext)
 - HDMI, DisplayPort Alt Mode (all with sound, but no volume adjustment)
+- VGA
 - USB ports including USB-C mapped, working after sleep 
 - TrackPad (Without gestures)
 - Audio, with speaker and microphone support
@@ -49,7 +48,9 @@
 - MicroSD card reader
 - TouchPad buttons
 - Multi-Jack (both cold- and hotplug)
+- Dedicated brightness control keys (use Fn+S/Fn+B instead)
 
+  
 <details>
 ## Some random text
 
