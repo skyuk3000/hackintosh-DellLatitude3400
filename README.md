@@ -30,6 +30,7 @@
 
 - HDMI coldplug
 - TrackPad with gestures (visible as Magic Trackpad 2)
+- MicroSD card reader (Not tested)
 - *Hibernation (none of Hackintoshes can do that)*
 
 ## Working
@@ -45,7 +46,6 @@
 - Audio, with speaker and microphone support
 - QE/CI
 - Sleep
-- MicroSD card reader
 - TouchPad buttons
 - Multi-Jack (both cold- and hotplug)
 - Dedicated brightness control keys (use Fn+S/Fn+B instead)
