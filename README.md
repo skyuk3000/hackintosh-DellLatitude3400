@@ -29,7 +29,6 @@
 ## Not working
 
 - HDMI coldplug
-- TrackPad with gestures (visible as Magic Trackpad 2)
 - MicroSD card reader (Not tested)
 - *Hibernation (none of Hackintoshes can do that)*
 
@@ -42,24 +41,16 @@
 - HDMI, DisplayPort Alt Mode (all with sound, but no volume adjustment)
 - VGA
 - USB ports including USB-C mapped, working after sleep 
-- TrackPad (Without gestures)
+- TrackPad with gestures (visible as Magic Trackpad 2)
 - Audio, with speaker and microphone support
 - QE/CI
 - Sleep
 - TouchPad buttons
 - Multi-Jack (both cold- and hotplug)
-- Dedicated brightness control keys (use Fn+S/Fn+B instead)
+- Dedicated brightness control keys (use Fn+S/Fn+B instead) ( F11/12 is working too)
 
   
 <details>
-## Some random text
 
-So I made this hackintosh basically just for fun, but it seems kinda stable, so I use it as my dialy driver. I've never had crashes with it.  
-
-Regarding the not working stuff: with some time I managed to fix almost everything, so only two things are not working, but none of them is a deal-breaker:
- - The brightness control keys are not working, eventhough I added and configured the Brightness Control kext. I kept it, as with a version upgrade they might fix it.
- - HDMI coldplug: I have no idea why is it happing... But I use a USB-C docking station, so it's not a problem at all for me. And the port itself works, just need a re-plugging, so...
-
-I would have a sentence about Intel Wifi+BT which the 5400 contains by default: When I started this project there was no such thing as Intel Wifi support at all. During the years kexts started to appear, and now I have seen promising results. That's why I digged my stock card up, placed it back, and made my EFI compatible with it! So it will work with stock WLAN card. Eventhough I would still recommend getting a natively supported one, first because the Intel card was not so stable (usuable, but not smooth (for example slow network scanning)), secondly as it did with Ventura, Apple can rewrite the whole BT/WLAN with any upgrade. There is nothing better than natively supported hardware, even in this wild west... :)
 </details>
 Pull requests or suggestions are welcome! :)
